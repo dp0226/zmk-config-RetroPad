@@ -1,0 +1,6 @@
+if SHIELD_RETROPAD
+
+config ZMK_KEYBOARD_NAME
+    default "RetroPad"
+
+endif 
