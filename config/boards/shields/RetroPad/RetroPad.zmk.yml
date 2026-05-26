@@ -1,0 +1,11 @@
+file_format: "1"
+id: retropad
+name: RetroPad
+type: 
+  - shield
+  - board
+url: https://github.com/dp0226/zmk-config-RetroPad/
+requires:
+  - nice_nano_v2
+features:
+  - keys
