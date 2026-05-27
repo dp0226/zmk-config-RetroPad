@@ -1,2 +1,2 @@
 config SHIELD_RETROPAD
-    def_bool $(shields_list_contains, RetroPad)
+    def_bool $(shields_list_contains,RetroPad)
