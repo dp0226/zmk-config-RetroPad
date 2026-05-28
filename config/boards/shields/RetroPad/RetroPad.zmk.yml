@@ -6,6 +6,6 @@ type:
   - board
 url: https://github.com/dp0226/zmk-config-RetroPad/
 requires:
-  - nice_nano_v2
+  - nice_nano
 features:
   - keys
