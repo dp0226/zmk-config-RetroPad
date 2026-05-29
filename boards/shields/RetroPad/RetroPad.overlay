@@ -1,5 +1,6 @@
 #include "RetroPad.dtsi"
 
+/ {
     kscan0 {
         compactible = "zmk,kscan-gpio-matrix";
         label = "default_kscan";
@@ -16,3 +17,4 @@
                     <&pro_micro 106 GPIO_ACTIVE_HIGH>,
                     <&pro_micro 104 GPIO_ACTIVE_HIGH>;
     };
+};
