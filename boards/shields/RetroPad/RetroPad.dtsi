@@ -19,7 +19,3 @@
         >;
     };
 };
-
-&nice_nano_v2 {
-    status = "okay";
-};
