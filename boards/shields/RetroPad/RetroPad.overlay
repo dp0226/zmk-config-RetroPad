@@ -1,8 +1,7 @@
 #include "RetroPad.dtsi"
 
-/ {
-    default_kscan: kscan {
-        compactible = "zmk,kscan-gpio-matrix";
+&kscan {
+        compatible = "zmk,kscan-gpio-matrix";
         label = "default_kscan";
         diode-direction = "col2row";
 
@@ -16,5 +15,4 @@
                     <&pro_micro   9 GPIO_ACTIVE_HIGH>,
                     <&pro_micro 106 GPIO_ACTIVE_HIGH>,
                     <&pro_micro 104 GPIO_ACTIVE_HIGH>;
-    };
 };
