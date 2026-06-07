@@ -1,4 +1,4 @@
-#include "RetroPad.dtsi"
+// #include "RetroPad.dtsi"
 
 / {
         chosen {
