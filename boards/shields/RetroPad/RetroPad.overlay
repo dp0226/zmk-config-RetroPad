@@ -21,7 +21,7 @@
                 col-gpios = <&pro_micro  10 GPIO_ACTIVE_HIGH>,
                             <&pro_micro   9 GPIO_ACTIVE_HIGH>,
                             <&pro_micro 106 GPIO_ACTIVE_HIGH>,
-                           <&pro_micro 104 GPIO_ACTIVE_HIGH>;
+                            <&pro_micro 104 GPIO_ACTIVE_HIGH>;
         };
 
         default_transform: keymap_transform_0 {
