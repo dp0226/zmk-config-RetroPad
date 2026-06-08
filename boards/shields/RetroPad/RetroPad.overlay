@@ -1,7 +1,10 @@
 // #include "RetroPad.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
+        &out OUT_BLE;
+        
         chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
