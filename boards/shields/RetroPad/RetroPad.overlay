@@ -3,8 +3,6 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-        &out OUT_BLE;
-        
         chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
